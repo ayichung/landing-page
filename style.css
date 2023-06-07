@@ -4,7 +4,8 @@ body {
     padding: 0;
 }
 
-header {
+header,
+.hero {
     color: #e5e7eb;
     background-color: #1f2937;
     font-size: 24px;
@@ -14,7 +15,7 @@ header {
     padding: 1% 22%;
 }
 
-span {
+header span {
     font-weight: bold;
     font-size: 24px;
 }
@@ -31,6 +32,35 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb
+}
+
+.hero {
+    gap: 48px;
+}
+
+.hero span {
+    font-weight: bold;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 6px 24px;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img {
+    width: 350px;
 }
 
 footer {
