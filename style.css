@@ -116,11 +116,43 @@ button {
     font-style: normal;
     font-weight: bold;
     align-self: flex-end;
-    margin: 0;
 }
 
-.quote .p {
-    margin: 0;
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 22%;
+}
+
+.action-content {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    flex: 1;
+    border-radius: 12px;
+    padding: 4% 11%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#subtitle {
+    font-size: 14px;
+}
+
+.action-content button {
+    border: 1px solid #e5e7eb;
+    font-size: 14px;
 }
 
 footer {
